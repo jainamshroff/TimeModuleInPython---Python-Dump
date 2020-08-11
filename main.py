@@ -19,3 +19,6 @@ for i in range(45):
 # We subtracted current tick by the tick that was before for loop ran thus giving
 # Time taken by the for loop.
 print("For Loop Took: ", time.time() - initial1)
+
+localtime = time.asctime(time.localtime(time.time()))
+print(localtime)
